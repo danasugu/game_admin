@@ -30,7 +30,7 @@ body {
   grid-template-columns: 2fr 1fr;
   /* grid-template-rows: 200px 100px; */
 }
-.game-management{
+.game-management {
   padding-left: 70px;
 }
 
@@ -57,7 +57,7 @@ textarea::-webkit-scrollbar-thumb {
 .players {
   border: 2px solid black;
 }
-.playes-btns{
+.playes-btns {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
