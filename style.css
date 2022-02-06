@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 99, 9%;
+  /* height: 1000px; */
+  border: 2px solid black;
+  display: grid;
+}
+
+.grid-r-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border-bottom: 2px solid black;
+}
+
+.grid-r-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  /* border-bottom: 2px solid black; */
+  text-align: center;
+}
+.user-management {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 200px 100px; */
+}
+.game-management{
+  padding-left: 70px;
+}
+
+.grid-r-3 {
+  display: grid;
+  padding: 5px 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 590px;
+  grid-gap: 10px;
+}
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.players {
+  border: 2px solid black;
+}
+.playes-btns{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.game-masters {
+  border: 2px solid black;
+}
+.games {
+  border: 2px solid black;
+}
+.messages {
+  border: 2px solid black;
+}
+.games-r0 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.games-r1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+select {
+  width: 142px;
+}
+.games-r2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.games1 {
+  height: 100px;
+}
+.games2 {
+  height: 100px;
+}
