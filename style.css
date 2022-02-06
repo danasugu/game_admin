@@ -45,8 +45,9 @@ body {
 }
 
 .grid-r-3 {
+  margin: 0;
   display: grid;
-  padding: 5px 15px;
+  padding: 0px 15px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 780px;
   grid-gap: 10px;
