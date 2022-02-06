@@ -19,19 +19,27 @@ body {
 }
 
 .grid-r-2 {
+  background-color: #fcfcfc;
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
   /* border-bottom: 2px solid black; */
   text-align: center;
+  font-weight: 900;
+  margin: 0;
 }
 .user-management {
+  text-align: center;
   display: grid;
   grid-template-columns: 2fr 1fr;
   /* grid-template-rows: 200px 100px; */
 }
 .game-management {
   padding-left: 80px;
+  text-align: center;
+}
+.game-messages {
+  text-align: center;
 }
 
 .grid-r-3 {
