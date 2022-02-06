@@ -46,7 +46,7 @@ body {
   display: grid;
   padding: 5px 15px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 650px;
+  grid-template-rows: 750px;
   grid-gap: 10px;
 }
 textarea::-webkit-scrollbar {
