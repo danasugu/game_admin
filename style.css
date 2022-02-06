@@ -6,7 +6,7 @@ body {
 
 .grid-container {
   width: 99, 9%;
-  /* height: 1000px; */
+  /* height: 1200px; */
   border: 2px solid black;
   display: grid;
 }
@@ -38,7 +38,7 @@ body {
   display: grid;
   padding: 5px 15px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 590px;
+  grid-template-rows: 650px;
   grid-gap: 10px;
 }
 textarea::-webkit-scrollbar {
