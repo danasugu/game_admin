@@ -19,7 +19,7 @@ body {
 }
 
 .grid-r-2 {
-  background-color: #fcfcfc;
+  background-color: #abfa97;
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
@@ -35,7 +35,7 @@ body {
   /* grid-template-rows: 200px 100px; */
 }
 .game-management {
-  padding-left: 80px;
+  padding-left: 190px;
   text-align: center;
 }
 .game-messages {
