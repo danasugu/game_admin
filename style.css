@@ -12,6 +12,7 @@ body {
 }
 
 .grid-r-1 {
+  background-color: #d0f0d0;
   display: flex;
   justify-content: space-around;
   padding: 5px 15px;
@@ -19,7 +20,7 @@ body {
 }
 
 .grid-r-2 {
-  background-color: #b1f8b1;
+  background-color: #a0d4a0;
   display: flex;
   justify-content: space-between;
   padding: 5px 15px;
@@ -27,6 +28,7 @@ body {
   text-align: center;
   font-weight: 900;
   margin: 0;
+  color: rgb(10, 104, 1);
 }
 .user-management {
   text-align: center;
