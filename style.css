@@ -79,9 +79,9 @@ textarea::-webkit-scrollbar-thumb {
 .games {
   border: 2px solid black;
 }
-.messages {
+/* .messages {
   border: 2px solid black;
-}
+} */
 .games-r0 {
   display: flex;
   justify-content: space-evenly;
